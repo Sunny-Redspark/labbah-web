@@ -520,3 +520,6 @@ width: 397px;
   border-radius: 7px;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.term{
+  gap: 20px;
+}

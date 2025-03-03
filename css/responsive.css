@@ -1,6 +1,28 @@
 /*=======Responsive Design=======*/
 @media screen and (max-width: 995px) {
- 
+    .hero-content {
+        width: 100%;
+    }
+
+    .service-card p{
+        width: 194px;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+    
+    .cta-phone{
+        display: none;
+    }
+
+    .app-img{
+        height: 30px;
+    }
+
+    .copy{
+        flex-direction: column;
+    }
 }
 @media (max-width: 570px) {
  
@@ -8,17 +30,62 @@
 }
 
 @media (max-width: 770px) {
-  
+    
 }
 
 @media (max-width: 450px) {
-  
+
+    .hero-content {
+        width: 100%;
+        /* padding: 100px 0px; */
+    }
+
+    .hero-content h1{
+        font-size: 2rem;
+    }
 
     .abt-logo-img {
         display: none;
     }
     .phone img {
         width: 100%;
+    }
+
+    .head{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .service-card p{
+        width: 300px;
+    }
+
+    .points p {
+        font-size: 14px;
+    }
+
+    .number {
+        gap: 3rem;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+    
+    .cta-phone{
+        display: none;
+    }
+    
+    .faq-question span{
+        font-size: 16px;
+    }
+
+    .app-img{
+        height: 40px;
+    }
+
+    .copy{
+        flex-direction: column;
     }
 }
 
