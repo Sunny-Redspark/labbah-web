@@ -331,3 +331,21 @@ footer {
 .faq-question[aria-expanded="true"] .arrow {
   transform: rotate(90deg);
 }
+
+.description {
+  border: none;
+  padding: 10px 100px 10px 0px;
+  color: #666666;
+}
+
+.faq-question span{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.faq-item.active {
+  border: 2px solid #00FF01; /* Change border when active */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 18px;
+
+}
