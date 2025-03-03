@@ -209,10 +209,10 @@ body {
   color: #4a4b4a;
   text-overflow: ellipsis;
   overflow: hidden;
-  display: -webkit-box;    
-  -webkit-line-clamp: 2;       
-  -webkit-box-orient: vertical; 
-  width: 300px; 
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: 300px;
 }
 
 .line {
@@ -309,10 +309,8 @@ footer {
 
 .faq-item {
   margin-bottom: 15px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   border-radius: 18px;
-
-
 }
 .faq-question {
   cursor: pointer;
@@ -322,7 +320,6 @@ footer {
   /* display: flex; */
   /* justify-content: space-between; */
   align-items: center;
-
 }
 .arrow {
   transition: transform 0.3s ease;
@@ -338,63 +335,135 @@ footer {
   color: #666666;
 }
 
-.faq-question span{
+.faq-question span {
   font-size: 18px;
   font-weight: 700;
 }
 
 .faq-item.active {
-  border: 2px solid #00FF01; /* Change border when active */
+  border: 2px solid #00ff01; /* Change border when active */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 18px;
+}
 
+/* service page  */
+
+.services-card {
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+
+.serviceimg {
+  height: 60px;
+  width: 60px;
+  background-color: var(--primary-color);
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceimg img {
+  height: 35px;
+  width: 35px;
+}
+
+.serviceline {
+  margin-left: 20px;
+}
+
+.serviceline h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #151915;
+}
+
+.serviceline p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4b4a;
+  line-height: 24px;
+}
+
+.features-card {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.features-card h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #151915;
+}
+
+.features-card p {
+  color: #4a4b4a;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;           
+  -webkit-line-clamp: 3;         
+  -webkit-box-orient: vertical;  
+  width: 300px;                  
 }
 
 
+/* blog details page */
 
-/* about page */
+.blog-box {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 40px;
+  color: #4A4B4A;
+}
 
+
+/* about page  */
 
 .hero-content-about {
-    width: 100%;
-    padding: 150px 0px;
-    text-align: center;
-    margin-top: 0px;
-    align-items: center;
+  width: 100%;
+  padding: 150px 0px;
+  text-align: center;
+  margin-top: 0px;
+  align-items: center;
 }
 
 .hero-content-about h1 {
-  color: #fff;
-  font-size: 2.6rem;
-  font-weight: 900;
+color: #fff;
+font-size: 2.6rem;
+font-weight: 900;
 }
 
 .hero-content-about p {
-  color: #fff;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+color: #fff;
+font-size: 1.1rem;
+margin-bottom: 2rem;
 }
 
 .left-img {
-  position: relative;
+position: relative;
 }
 
 .abt-logo-img {
-  position: absolute;
-  z-index: 99;
-  right: 51px;
+position: absolute;
+z-index: 99;
+right: 51px;
 }
 
 .abt-img-2 {
-  position: absolute;
-  z-index: 99;
-  bottom: 0;
-  right: 0;
+position: absolute;
+z-index: 99;
+bottom: 0;
+right: 0;
 }
 
 .phone {
-  position: relative;
+position: relative;
 }
 .phone img {
-  width: 397px;
+width: 397px;
 }
