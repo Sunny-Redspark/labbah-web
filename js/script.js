@@ -16,3 +16,13 @@ var swiper = new Swiper(".mySwiper", {
     loop: true, /* Ensure continuous looping */
   });
   
+
+
+$(document).ready(function () {
+        $(".faq-question").click(function () {
+            $(".faq-item").removeClass("active"); // Remove active class from all
+            $(this).closest(".faq-item").addClass("active"); // Add active class to clicked item
+        });
+    });
+
+    
