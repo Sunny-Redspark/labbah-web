@@ -43,7 +43,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
-  transition: all 0.3s ease; /* Smooth transition for background and text color */
+  transition: all 0.3s ease;
 }
 
 .navbar-transparent {
@@ -60,10 +60,24 @@ body {
   width: auto;
 }
 
+/* Toggler styling for visibility */
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+}
+
+.navbar-toggler-icon.custom-toggler {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-white .navbar-toggler-icon.custom-toggler {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .nav-link {
   margin-right: 1.5rem;
   font-weight: 300;
-  transition: color 0.3s ease; /* Smooth transition for text color */
+  transition: color 0.3s ease;
 }
 
 .navbar-transparent .nav-link {
@@ -81,32 +95,6 @@ body {
 .dropdown-menu {
   border: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.language-btn {
-  border-radius: 20px;
-  padding: 0.5rem 0.8rem;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.navbar-transparent .language-btn {
-  background-color: #fff;
-  color: #000;
-}
-
-.navbar-white .language-btn {
-  background-color: #f1f1f1;
-  color: #000;
-}
-
-.language-btn:hover {
-  background-color: #e0e0e0;
-}
-
-.language-btn:focus {
-  outline: none;
 }
 
 /* Hero Section */
@@ -342,7 +330,7 @@ footer {
 .faq-question {
   cursor: pointer;
   background-color: #ffffff;
-  padding: 30px;
+  padding: 20px 30px 20px 30px;
   border-radius: 18px;
   /* display: flex; */
   /* justify-content: space-between; */
