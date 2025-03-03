@@ -467,3 +467,56 @@ position: relative;
 .phone img {
 width: 397px;
 }
+
+
+/* contact-page */
+
+.head1 {
+  font-size: 28px;
+  color: #212121;
+  font-weight: 900;
+  line-height: 52px;
+
+}
+
+.serviceimg1 {
+  height: 40px;
+  width: 40px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.serviceline1 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #151915;
+}
+
+.serviceline1{
+  margin-left: 20px;
+
+}
+
+.contact-form {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  margin: 0px 70px 0px 70px;
+}
+
+.form-control1 {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #F7F7F7;
+  background-clip: padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 7px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
