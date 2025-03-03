@@ -550,3 +550,31 @@ width: 397px;
 .term{
   gap: 20px;
 }
+
+
+
+/* Career page */
+
+
+.features-card1 p {
+  color: #4a4b4a;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: auto;
+}
+
+.features-card1 {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.features-card1 h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #151915;
+}
