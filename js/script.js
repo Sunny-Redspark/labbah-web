@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const navbar = document.querySelector('.navbar');
 
   window.addEventListener('scroll', function() {
-      if (window.scrollY > 600) { // Adjust this value to change when the transition happens
+      if (window.scrollY > 50) { // Adjust this value to change when the transition happens
           navbar.classList.remove('navbar-transparent');
           navbar.classList.add('navbar-white');
       } else {

@@ -361,6 +361,18 @@ footer {
   border-radius: 18px;
 }
 
+.icon {
+  display: flex;
+  gap: 15px;
+}
+
+.icon a {
+  background-color: #2D352D;
+  color: var(--primary-color);
+  padding: 10px;
+  border-radius: 10%;
+}
+
 /* service page  */
 
 .services-card {
