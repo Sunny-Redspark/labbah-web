@@ -201,7 +201,7 @@ body {
 
 .service-card h3 {
   color: #151915;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 800;
 }
 
@@ -348,4 +348,53 @@ footer {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 18px;
 
+}
+
+
+
+/* about page */
+
+
+.hero-content-about {
+    width: 100%;
+    padding: 150px 0px;
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.hero-content-about h1 {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+
+.hero-content-about p {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.left-img {
+  position: relative;
+}
+
+.abt-logo-img {
+  position: absolute;
+  z-index: 99;
+  right: 51px;
+}
+
+.abt-img-2 {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+}
+
+.phone {
+  position: relative;
+}
+.phone img {
+  width: 397px;
 }
