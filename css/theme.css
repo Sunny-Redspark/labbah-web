@@ -127,6 +127,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   border-radius: 8px;
+  cursor: pointer;
   border: none;
 }
 
@@ -589,4 +590,38 @@ width: 100%;
   font-size: 22px;
   font-weight: 800;
   color: #151915;
+}
+
+
+.career-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.career-cards h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.career-cards p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4b4a;
+}
+
+.hr {
+  border: 1px solid #bfb5b5  !important;
+}
+
+.upload {
+  background-color: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.career-text {
+  font-size: 14px;
 }
